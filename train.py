@@ -1,38 +1,91 @@
+from datetime import datetime
 import pandas as pd
-from sklearn.ensemble import IsolationForest
-from sklearn.preprocessing import StandardScaler
-import joblib
- 
-MODEL_PATH = "../model/saved_model.pkl"
-DATA_PATH = "../data/sample_training_data.csv"   
+import os
+from training.DBSA import train_with_dbscan
+from training.IsolationForest import train_with_isolation_forest
 
-def train_model():
-    """
-    Train IsolationForest on process metrics (cpu, rss, threads)
-    and save model + scaler as a pickle file.
-    """
+
+def train_model(df=None, dataset_names=[], model_choice="auto"):
+
+    MODEL_DIR = "model"
+    os.makedirs(MODEL_DIR, exist_ok=True)
+
+    # ---------------------------
     # Load dataset
-    df = pd.read_csv(DATA_PATH)
+    # ---------------------------
+    if df is None:
+        raw_dir = "data/"
+        files = [os.path.join(raw_dir, f)
+                 for f in os.listdir(raw_dir) if f.endswith(".csv")]
+        if not files:
+            print("[train] No training data found")
+            return
 
-    # Features for training
+        df_list = [pd.read_csv(f) for f in files]
+        df = pd.concat(df_list, ignore_index=True)
+
+    df = df.fillna(0.0)
     X = df[["cpu", "rss", "threads"]]
 
-    # Scale features
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
+    # ---------------------------
+    # Feature stats
+    # ---------------------------
+    feature_stats = {
+        col: {
+            "mean": float(X[col].mean()),
+            "std": float(X[col].std()),
+            "z_scores_sample": ((X[col] - X[col].mean()) / X[col].std()).head(5).tolist()
+        } for col in X.columns
+    }
 
-    # Train Isolation Forest
-    # Isolation Forest (often abbreviated as iForest) is a machine learning algorithm 
-    # for anomaly or outlier detection. Unlike many other algorithms that profile “normal” data, 
-    # Isolation Forest explicitly isolates anomalies. Here’s a detailed breakdown:
+    # ---------------------------
+    # MODEL CHOICE
+    # ---------------------------
+    if model_choice == "isolation":
+        return {
+            "selected_model": train_with_isolation_forest(
+                X, feature_stats, dataset_names, MODEL_DIR
+            )
+        }
 
-    model = IsolationForest(
-        n_estimators=200,
-        contamination=0.01,
-        random_state=42
+    if model_choice == "dbscan":
+        return {
+            "selected_model": train_with_dbscan(
+                X, feature_stats, dataset_names, MODEL_DIR
+            )
+        }
+
+    # ---------------------------
+    # AUTO TRAIN BOTH MODELS
+    # ---------------------------
+    print("[AUTO] Training both IsolationForest and DBSCAN ...")
+
+    dbscan_meta = train_with_dbscan(
+        X, feature_stats, dataset_names, MODEL_DIR
     )
-    model.fit(X_scaled)
+    iso_meta = train_with_isolation_forest(
+        X, feature_stats, dataset_names, MODEL_DIR
+    )
 
-    # Save model and scaler together
-    joblib.dump({"model": model, "scaler": scaler}, MODEL_PATH)
-    print(f"Model trained and saved at: {MODEL_PATH}")
+    # ---------------------------
+    # SELECT BEST MODEL
+    # ---------------------------
+    def score(model_meta):
+        return 1 - model_meta["performance"]["anomaly_fraction"]
+
+    iso_score = score(iso_meta)
+    dbscan_score = score(dbscan_meta)
+
+    if iso_score >= dbscan_score:
+        best = iso_meta
+        print("[AUTO] Isolation Forest selected as best model.")
+    else:
+        best = dbscan_meta
+        print("[AUTO] DBSCAN selected as best model.")
+
+    return {
+        "isolation_forest": iso_meta,
+        "dbscan": dbscan_meta,
+        "best_model": best
+
+    }
