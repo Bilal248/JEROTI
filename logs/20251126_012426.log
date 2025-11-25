@@ -1,0 +1,13 @@
+[!!] Anomaly Detected → Processes: replayd, duetexpertd, NotificationCenter, ChatGPT, Terminal
+[!!] Anomaly Detected → Processes: NotificationCenter, replayd, photoanalysisd, ChatGPT, Terminal
+[!!] Anomaly Detected → Processes: replayd, NotificationCenter, ChatGPT, Terminal, screencaptureui
+[!!] Anomaly Detected → Processes: replayd, ChatGPT, NotificationCenter, Terminal, screencaptureui
+[!!] Anomaly Detected → Processes: replayd, NotificationCenter, ChatGPT, Code Helper (Renderer), python3.11
+[!!] Anomaly Detected → Processes: Code Helper (Renderer), replayd, NotificationCenter, Electron, talagentd
+[!!] Anomaly Detected → Processes: Code Helper (Renderer), Code Helper, Electron, replayd, ChatGPT
+[!!] Anomaly Detected → Processes: Code Helper (Renderer), replayd, Electron, ChatGPT, NotificationCenter
+[!!] Anomaly Detected → Processes: NotificationCenter, ChatGPT, replayd, Code Helper (Renderer), python3.11
+[!!] Anomaly Detected → Processes: replayd, Code Helper, Code Helper (Renderer), NotificationCenter, Code Helper (GPU)
+[!!] Anomaly Detected → Processes: replayd, NotificationCenter, ChatGPT, Terminal, ContextStoreAgent
+[!!] Anomaly Detected → Processes: NotificationCenter, ChatGPT, replayd, python3.11, Code Helper (Renderer)
+[!!] Anomaly Detected → Processes: replayd, NotificationCenter, ChatGPT, python3.11, Terminal
