@@ -1,0 +1,51 @@
+{
+  "model_name": "DBSCAN_6VA58X_20251201003357",
+  "model_type": "DBSCAN_PIPELINE",
+  "model_file": "model/DBSCAN_6VA58X_20251201003357.pkl",
+  "timestamp": "2025-12-01 00:33:57",
+  "performance": {
+    "total_samples": 521,
+    "anomalies_detected": 39,
+    "anomaly_fraction": 0.0749,
+    "num_clusters": 1
+  },
+  "feature_stats": {
+    "mean_cpu": {
+      "mean": 0.10956493921944976,
+      "std": 0.9646972104209791
+    },
+    "max_cpu": {
+      "mean": 0.1944337811900192,
+      "std": 1.74912827627268
+    },
+    "std_cpu": {
+      "mean": 0.08422639495937456,
+      "std": 0.755440499869382
+    },
+    "mean_ram": {
+      "mean": 18.972023952335256,
+      "std": 67.48413411726585
+    },
+    "max_ram": {
+      "mean": 19.331573896353166,
+      "std": 69.52025971110174
+    },
+    "std_ram": {
+      "mean": 0.3307400747886968,
+      "std": 3.15578044565006
+    },
+    "occurrence_count": {
+      "mean": 2.9712092130518233,
+      "std": 0.22603666395834546
+    },
+    "last_seen_age_seconds": {
+      "mean": 2.462130502879078,
+      "std": 19.962134077512964
+    }
+  },
+  "datasets": [
+    "snapshot_20251201003107.csv",
+    "snapshot_20251201003056.csv",
+    "snapshot_20251201003357.csv"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "model_name": "ISO_H9W3CU_20251201003057",
+  "model_type": "IsolationForest_PIPELINE",
+  "model_file": "model/ISO_H9W3CU_20251201003057.pkl",
+  "timestamp": "2025-12-01 00:30:57",
+  "performance": {
+    "total_samples": 517,
+    "anomalies_detected": 11,
+    "anomaly_fraction": 0.0213
+  },
+  "feature_stats": {
+    "mean_cpu": {
+      "mean": 0.0988394584139265,
+      "std": 1.5723503020123937
+    },
+    "max_cpu": {
+      "mean": 0.0988394584139265,
+      "std": 1.5723503020123937
+    },
+    "std_cpu": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "mean_ram": {
+      "mean": 18.86377236460348,
+      "std": 66.81954160590891
+    },
+    "max_ram": {
+      "mean": 18.86377236460348,
+      "std": 66.81954160590891
+    },
+    "std_ram": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "occurrence_count": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "last_seen_age_seconds": {
+      "mean": 0.128698,
+      "std": 0.0
+    }
+  },
+  "datasets": [
+    "snapshot_20251201003056.csv"
+  ]
+}
