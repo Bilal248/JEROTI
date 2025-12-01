@@ -1,8 +1,0 @@
-{
-  "model_name": "ADA_26UZ0N_20251201003057",
-  "model_type": "AdaBoost_from_ISO_DBSCAN",
-  "model_file": "model/ADA_26UZ0N_20251201003057.pkl",
-  "timestamp": "2025-12-01 00:30:57",
-  "num_samples": 517,
-  "num_anomalies": 19
-}

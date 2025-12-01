@@ -1,8 +1,0 @@
-{
-  "model_name": "ADA_8RGO3X_20251201003358",
-  "model_type": "AdaBoost_from_ISO_DBSCAN",
-  "model_file": "model/ADA_8RGO3X_20251201003358.pkl",
-  "timestamp": "2025-12-01 00:33:58",
-  "num_samples": 521,
-  "num_anomalies": 39
-}
