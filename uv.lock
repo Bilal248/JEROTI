@@ -327,6 +327,8 @@ dependencies = [
     { name = "joblib" },
     { name = "pandas" },
     { name = "psutil" },
+    { name = "river" },
+    { name = "rrcf" },
     { name = "scikit-learn" },
     { name = "seaborn" },
     { name = "sse-starlette" },
@@ -341,6 +343,8 @@ requires-dist = [
     { name = "joblib", specifier = ">=1.5.2" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "psutil", specifier = ">=7.1.3" },
+    { name = "river" },
+    { name = "rrcf", specifier = ">=0.4.4" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "sse-starlette", specifier = ">=3.0.3" },
@@ -963,6 +967,35 @@ wheels = [
 ]
 
 [[package]]
+name = "river"
+version = "0.23.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/40/38/9063e6410a14c3ad37b943018d1de202a0e4e288a04cf7fb8fff392c6e4b/river-0.23.0.tar.gz", hash = "sha256:f174cb8e5984be1a193827faf8e09a03ceb110a055290628accc72ec987390f1", size = 1406568, upload-time = "2025-11-13T19:25:11.396Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/bd/cf7a7728e2e528bb9895a633bb22ec675e05ad78a0c151d18b2eddf190e3/river-0.23.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:e5bdeb4f8a72a723086b1eb52572b0c7d2c5a17174a74db3414c612be94997e8", size = 2460282, upload-time = "2025-11-13T19:24:42.171Z" },
+    { url = "https://files.pythonhosted.org/packages/04/3e/1bdfc97654fba198af6bd187fc2de4ae6c7108fc55d72a5a9a4ad9a2b2a0/river-0.23.0-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:43e7f696b0d438563b65ba40005ae59895401ecab52e53c201b42175743c7175", size = 3183913, upload-time = "2025-11-13T19:24:44.228Z" },
+    { url = "https://files.pythonhosted.org/packages/c0/1d/ff6a78782ee78d9ab069a58c3dc8ef266c85ea2d82ece89d2a0140125704/river-0.23.0-cp312-cp312-manylinux_2_28_i686.whl", hash = "sha256:859428f3cb4f5452d348241dd72794845fb7a24b931db11d9b2929243a0754b5", size = 3153834, upload-time = "2025-11-13T19:24:45.907Z" },
+    { url = "https://files.pythonhosted.org/packages/3a/65/6384442e2ea4b9e792fbc42adfbd1484808c6fa7acdc2141fa2f068a5264/river-0.23.0-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:ca816067e20c1163cf02aaeba3e2c2b4c43d966e53f5ed4b3e1b51c89e7481d5", size = 3206848, upload-time = "2025-11-13T19:24:47.883Z" },
+    { url = "https://files.pythonhosted.org/packages/51/53/a098a5a51aae291f6813106dc763a768fbaf5043e74d2c38f78f159b2532/river-0.23.0-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:1ef71deca2d10fac7ce5ec5fc752e028883ba1153eeed4a457f01feb76c24501", size = 4121107, upload-time = "2025-11-13T19:24:49.643Z" },
+    { url = "https://files.pythonhosted.org/packages/51/e5/79e44a7fafdb2168a2952a3d54d83610d5d71baa91ae7e2b3d3cd552075f/river-0.23.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:42040e8470f73f00b299f884623f4d4da433fb9dec85ce88e29fa5bf295e6689", size = 4197757, upload-time = "2025-11-13T19:24:51.356Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/30/6170d3f27566055e3ab588c865d0f9105d8ee004ca97a27d852c53781f77/river-0.23.0-cp312-cp312-win32.whl", hash = "sha256:c10b64d88c422cfe0941505a1dfb6ec50af3d936174ac41d79f214d9bfb8b430", size = 1795131, upload-time = "2025-11-13T19:24:53.117Z" },
+    { url = "https://files.pythonhosted.org/packages/34/96/41ccaef6e08e59766a3978dba66e708b0608521b67e9a340ca634b18e23e/river-0.23.0-cp312-cp312-win_amd64.whl", hash = "sha256:5fcd6a74af1d70398b741915b5ed851cfd6685876f67ae875536e0d22e9436c5", size = 1834531, upload-time = "2025-11-13T19:24:54.696Z" },
+    { url = "https://files.pythonhosted.org/packages/4d/43/99183a1718c14a4876de8aa944f8435c169339b2cae01712a13049254e19/river-0.23.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:672281a91f872d9fe4ecbe9d85e738160c81e5b049404befeada050e5a51269e", size = 2455255, upload-time = "2025-11-13T19:24:56.142Z" },
+    { url = "https://files.pythonhosted.org/packages/3c/93/0600ee91be2e55a806369a08bc1cf25fb52b185ffc5c5f099960f995ba65/river-0.23.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:a690a546257dae7a7884a6471502e935b5b492c6884eab97e1aaadf8905ba462", size = 3175421, upload-time = "2025-11-13T19:24:58.105Z" },
+    { url = "https://files.pythonhosted.org/packages/6c/f0/7a41649b5799dc6bf32e925a4f2348929020acb1f7effb74a3b4042825d1/river-0.23.0-cp313-cp313-manylinux_2_28_i686.whl", hash = "sha256:1374c7b6c989b2409f96158f99af4d1c97ff5e84828ebf2223baed51284a0b9c", size = 3148855, upload-time = "2025-11-13T19:25:00.077Z" },
+    { url = "https://files.pythonhosted.org/packages/29/05/42e02b34e8890e5e5b557ae6c0ff92fd11bea4a9b56da146dc17214174c2/river-0.23.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:d525d20bfa20b21ca1eafb81d64f12eb716618267cf1a741c747aa44ac271fe5", size = 3202437, upload-time = "2025-11-13T19:25:01.605Z" },
+    { url = "https://files.pythonhosted.org/packages/1b/8c/60c1de1520823432badb33063b19ba59ed46c877d44518fe78f945f51c14/river-0.23.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:040cfbc8a166b913c5d31224f5871ae2483c72b2b786e869ba90909496b72e1a", size = 4100515, upload-time = "2025-11-13T19:25:03.348Z" },
+    { url = "https://files.pythonhosted.org/packages/7a/79/5229ddc2a0df221c4e5646b8f1fbece8b66f0184c06c2fb101bab5525609/river-0.23.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:7d3ea141087232b75440ced85cd278eb8c2effe7ea69a0d269d5f95110945b92", size = 4193101, upload-time = "2025-11-13T19:25:05.629Z" },
+    { url = "https://files.pythonhosted.org/packages/13/92/5cb1fcaea30e74610f8b1f3f93ee68bd2b2127a8c37e5222ec57d76425d3/river-0.23.0-cp313-cp313-win32.whl", hash = "sha256:e33f54124b5738d2211d712c902fb99d87b4b3219d19374954b911a3980276ee", size = 1794333, upload-time = "2025-11-13T19:25:07.751Z" },
+    { url = "https://files.pythonhosted.org/packages/93/a8/2a0791379ddd6bfa596219ff0e8647f8df50018951ec1f297863129a52bc/river-0.23.0-cp313-cp313-win_amd64.whl", hash = "sha256:62df6da5bc11a6b88ec2c7be9836661e64475ba920695547e436d0fb0b3b7d4d", size = 1832780, upload-time = "2025-11-13T19:25:09.469Z" },
+]
+
+[[package]]
 name = "rpds-py"
 version = "0.30.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1042,6 +1075,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/20/53/7c7e784abfa500a2b6b583b147ee4bb5a2b3747a9166bab52fec4b5b5e7d/rpds_py-0.30.0-cp314-cp314t-win32.whl", hash = "sha256:dc824125c72246d924f7f796b4f63c1e9dc810c7d9e2355864b3c3a73d59ade0", size = 211570, upload-time = "2025-11-30T20:24:12.735Z" },
     { url = "https://files.pythonhosted.org/packages/d0/02/fa464cdfbe6b26e0600b62c528b72d8608f5cc49f96b8d6e38c95d60c676/rpds_py-0.30.0-cp314-cp314t-win_amd64.whl", hash = "sha256:27f4b0e92de5bfbc6f86e43959e6edd1425c33b5e69aab0984a72047f2bcf1e3", size = 226532, upload-time = "2025-11-30T20:24:14.634Z" },
 ]
+
+[[package]]
+name = "rrcf"
+version = "0.4.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/22/4d/a67d50635f330cbbde37d387d7edfe3be035d448ffc91bf7d1cc480f0bcd/rrcf-0.4.4.tar.gz", hash = "sha256:a9bc832f0d57849543d83d55cd362bb629f62b189dd0421df243077a6cf97836", size = 14805, upload-time = "2023-04-30T02:25:29.594Z" }
 
 [[package]]
 name = "scikit-learn"
