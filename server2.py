@@ -29,6 +29,7 @@ MODEL_DIR.mkdir(exist_ok=True)
 SNAPSHOT_INTERVAL = 10       # take process snapshot every 10 sec
 TRAIN_INTERVAL = 60          # training every 60 sec (unused now)
 AGG_WINDOW_SECONDS = 300     # 5-minute aggregation window (unused now)
+TDP_W = float(os.getenv("CPU_TDP_W", "15"))  # nominal CPU TDP for heuristic power (watts)
 
 DEDUP_SUBSET = [
     "Timestamp", "PID", "Process_Name",
@@ -80,7 +81,6 @@ def safe_str(v):
         return None
     return str(v)
 
-
 def prime_cpu_percent():
     # Prime the cpu_percent measurement to avoid initial zero
     psutil.cpu_percent(interval=None)
@@ -104,6 +104,26 @@ def get_cpu_package_power():
         print(f"Failed to get CPU power: {e}")
     return 0.0
 
+def estimate_package_power(tdp_w: float = TDP_W) -> float:
+    """
+    Heuristic package power estimate: TDP * CPU_util * freq_ratio.
+    Not a replacement for real sensors, but useful when powermetrics is unavailable.
+    """
+    try:
+        cpu_util = psutil.cpu_percent(interval=None)  # since last call
+        freq = psutil.cpu_freq()
+        if freq is not None:
+            base = freq.max or freq.current or 0.0
+            freq_ratio = (freq.current / base) if base > 0 else 1.0
+            # Clamp to a sane range
+            freq_ratio = max(0.0, min(freq_ratio, 1.5))
+        else:
+            freq_ratio = 1.0
+        return tdp_w * (cpu_util / 100.0) * freq_ratio
+    except Exception as e:
+        print(f"Failed to estimate package power: {e}")
+        return 0.0
+
 # Call this once at startup, or in start_scanning before the loop
 prime_cpu_percent()
 
@@ -112,6 +132,8 @@ def get_process_list_snapshot():
     ts = datetime.now(timezone.utc).isoformat()
 
     cpu_package_power = get_cpu_package_power()
+    if cpu_package_power <= 0.0:
+        cpu_package_power = estimate_package_power()
 
     for proc in psutil.process_iter(['pid', 'name']):
         try:
