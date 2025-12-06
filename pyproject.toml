@@ -17,6 +17,7 @@ dependencies = [
     "seaborn>=0.13.2",
     "sse-starlette>=3.0.3",
     "uvicorn>=0.38.0",
+    "xgboost>=3.1.2",
 ]
 
 [tool.uv.workspace]
