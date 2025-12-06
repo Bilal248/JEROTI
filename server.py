@@ -1,5 +1,4 @@
 from fastapi import FastAPI, Request
-from sse_starlette. sse import EventSourceResponse
 import psutil, uuid, asyncio, json, joblib, pandas as pd
 import os
 from datetime import datetime, timezone
@@ -88,7 +87,7 @@ def merge_into_master():
         return None
     merged = pd.concat(dfs, ignore_index=True)
     if "pid" in merged.columns:
-        merged["pid"] = merged["pid"].astype(int)
+        merged["pid"] = pd.to_numeric(merged["pid"], errors="coerce").fillna(-1).astype(int)
     merged_before = len(merged)
     # Prefer targeted dedupe subset when available, otherwise drop exact duplicates
     try:
@@ -159,8 +158,8 @@ def train_all_models(MODEL_DIR_PATH=MODEL_DIR):
             print("No snapshots to merge.")
             return None
         agg_df, X = build_aggregated_features(use_window_seconds=AGG_WINDOW_SECONDS)
+        _, X = build_aggregated_features(use_window_seconds=AGG_WINDOW_SECONDS)
         if X.shape[0] == 0:
-            print("No aggregated data to train on.")
             return None
         
         from sklearn.preprocessing import StandardScaler
@@ -288,6 +287,32 @@ def dedupe_anomalies_by_process(anomalies):
         v.pop('_ts_parsed', None)
         res.append(v)
     return res
+
+def sanitize_for_json(data):
+    if isinstance(data, dict):
+        return {k: sanitize_for_json(v) for k, v in data.items()}
+    if isinstance(data, list):
+        return [sanitize_for_json(item) for item in data]
+    if isinstance(data, tuple):
+        return [sanitize_for_json(item) for item in data]
+    if isinstance(data, np.ndarray):
+        return sanitize_for_json(data.tolist())
+    if isinstance(data, pd.Timestamp):
+        return data.isoformat()
+    if isinstance(data, datetime):
+        return data.isoformat()
+    if isinstance(data, (np.floating, float)):
+        if np.isnan(data) or np.isinf(data):
+            return None
+        return float(data)
+    if isinstance(data, (np.integer,)):
+        return int(data)
+    try:
+        if pd.isna(data):
+            return None
+    except Exception:
+        pass
+    return data
 
 # ----- FIX: Properly transform input features to 8 features -----
 def build_inference_features_from_processes(processes):
@@ -449,8 +474,8 @@ async def background_collector():
             if scanning_active:
                 rows = get_process_list_snapshot()
                 csv_path, json_path = write_snapshot_files(rows, run_dir=current_run_dir)
+                csv_path, _ = write_snapshot_files(rows, run_dir=current_run_dir)
                 print(f"Saved snapshot: {csv_path}")
-
                 # quick incremental training per snapshot: build features and call partial_fit with small batch
                 try:
                     # aggregate current snapshot into features
@@ -473,7 +498,6 @@ async def background_collector():
                     feat_cols = ["mean_cpu", "max_cpu", "std_cpu", "mean_ram", "max_ram", "std_ram", "occurrence_count"]
                     # add last_seen_age_seconds as 0 for snapshot
                     process_groups["last_seen_age_seconds"] = 0.0
-                    X_batch = process_groups[ ["mean_cpu", "max_cpu", "std_cpu", "mean_ram", "max_ram", "std_ram", "occurrence_count", "last_seen_age_seconds"] ].fillna(0.0).values
                     # labels: use isolation forest + dbscan heuristics from most recent full models if available
                     # fallback: label everything 0 (safe)
                     y_batch = [0] * X_batch.shape[0]
@@ -571,11 +595,10 @@ async def stop_scanning():
 
     merge_stats = merge_into_master()
 
-    # build aggregated features and prefer aggregated master data
-    agg_df, features = build_aggregated_features(use_window_seconds=AGG_WINDOW_SECONDS)
     processes = []
+    agg_df, _ = build_aggregated_features(use_window_seconds=AGG_WINDOW_SECONDS)
     if not agg_df.empty:
-        for r in agg_df.to_dict("records"):
+        for _, r in agg_df.iterrows():
             processes.append({
                 "pid": int(r.get("pid", -1)),
                 "name": r.get("name"),
@@ -584,7 +607,6 @@ async def stop_scanning():
                 "last_seen": r.get("last_seen")
             })
     else:
-        # fallback to latest raw snapshot
         csvs = sorted(DATA_DIR.glob("snapshot_*.csv"))
         if csvs:
             try:
@@ -595,8 +617,10 @@ async def stop_scanning():
 
     anomalies = detect_anomalies_from_loaded_models(processes)
     anomalies = dedupe_anomalies_by_process(anomalies)
-    models_meta = [m.get("meta", {}) for m in loaded_models]
 
+    processes = sanitize_for_json(processes)
+    anomalies = sanitize_for_json(anomalies)
+    models_meta = [m.get("meta", {}) for m in loaded_models]
     system = {"timestamp": datetime.now().isoformat(), "cpu": psutil.cpu_percent(), "ram": psutil.virtual_memory().percent}
 
     return {
@@ -663,12 +687,14 @@ async def get_latest_anomaly_report():
 
     anomalies = detect_anomalies_from_loaded_models(processes)
     anomalies = dedupe_anomalies_by_process(anomalies)
+    anomalies = detect_anomalies_from_loaded_models(processes)
+    anomalies = dedupe_anomalies_by_process(anomalies)
+    anomalies = sanitize_for_json(anomalies)
+    processes = sanitize_for_json(processes)
     models_meta = [m.get("meta", {}) for m in loaded_models]
     system = {"timestamp": datetime.now().isoformat(), "cpu": psutil.cpu_percent(), "ram": psutil.virtual_memory().percent}
 
     return {"anomalies": anomalies, "processes": processes, "models": models_meta, "system": system}
-
-@app.get("/system-stats")
 async def system_stats():
     return {
         "timestamp": datetime.now().isoformat(),
