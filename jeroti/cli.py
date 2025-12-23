@@ -14,7 +14,6 @@ from realtime import (
 )
 
 
-
 def print_main_menu():
     os.system('clear')
     print("\n==============================")
