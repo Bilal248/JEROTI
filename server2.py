@@ -9,6 +9,9 @@ import traceback
 import subprocess
 import math
 import platform
+import joblib
+from sklearn.preprocessing import StandardScaler
+
 
 app = FastAPI()
 
@@ -46,8 +49,11 @@ last_training_result = None   # kept for compatibility, but unused
 current_run_id = None
 current_run_dir = None
 
-loaded_models = []            # unused now
 scaler_state = None           # unused now
+loaded_models = {}
+scaler = None
+FEATURE_COLUMNS = ["CPU_Usage_%", "Mem_Usage_MB", "Power_W"]
+
 
 # -------------------------------------------------
 # Helper Functions
@@ -80,6 +86,25 @@ def safe_str(v):
     if v is None:
         return None
     return str(v)
+
+def load_models():
+    global loaded_models, scaler
+
+    loaded_models.clear()
+
+    for model_file in MODEL_DIR.glob("*.joblib"):
+        name = model_file.stem.lower()
+        try:
+            loaded_models[name] = joblib.load(model_file)
+            print(f"Loaded model: {name}")
+        except Exception as e:
+            print(f"Failed to load {model_file}: {e}")
+
+    scaler_path = MODEL_DIR / "scaler.joblib"
+    if scaler_path.exists():
+        scaler = joblib.load(scaler_path)
+        print("Loaded scaler")
+
 
 def prime_cpu_percent():
     # Prime the cpu_percent measurement to avoid initial zero
@@ -230,9 +255,29 @@ def merge_into_master():
         "unique_processes": merged["PID"].astype(str).nunique() if "PID" in merged.columns else 0
     }
 
+def prepare_features(df: pd.DataFrame):
+    df = df.copy()
+
+    for col in FEATURE_COLUMNS:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+
+    df = df.dropna(subset=FEATURE_COLUMNS)
+
+    X = df[FEATURE_COLUMNS].values
+
+    if scaler is not None:
+        X = scaler.transform(X)
+
+    return X, df
+
+
 # --------------------------------------------------
 # API Endpoints (data-only, no training)
 # --------------------------------------------------
+@app.on_event("startup")
+def startup_event():
+    load_models()
+
 
 @app.post("/start-scanning")
 async def start_scanning():
@@ -268,16 +313,57 @@ async def stop_scanning():
 async def get_scanning_status():
     return {
         "scanning": scanning_active,
-        "last_training": None,  # training disabled
-        "models_loaded": 0      # models unused
+        "models_loaded": list(loaded_models.keys())
     }
 
+
 @app.post("/predict-anomalies")
-async def predict_anomalies_endpoint(request: Request):
-    """
-    Anomaly prediction disabled for now.
-    """
-    return {"anomalies": [], "error": "anomaly prediction disabled"}
+async def predict_anomalies_endpoint():
+    if not MASTER_CSV.exists():
+        return {"anomalies": [], "error": "no data available"}
+
+    if not loaded_models:
+        return {"anomalies": [], "error": "no models loaded"}
+
+    try:
+        df = pd.read_csv(MASTER_CSV).replace([np.inf, -np.inf], np.nan)
+
+        X, clean_df = prepare_features(df)
+
+        anomalies = []
+
+        for model_name, model in loaded_models.items():
+            try:
+                preds = model.predict(X)
+                # sklearn anomaly convention: -1 = anomaly
+                clean_df[f"{model_name}_anomaly"] = (preds == -1).astype(int)
+            except Exception as e:
+                print(f"Prediction failed for {model_name}: {e}")
+
+        # Combine results
+        anomaly_mask = clean_df.filter(like="_anomaly").sum(axis=1) > 0
+        anomaly_df = clean_df[anomaly_mask]
+
+        for _, r in anomaly_df.iterrows():
+            anomalies.append({
+                "pid": int(r["PID"]),
+                "name": r["Process_Name"],
+                "cpu": r["CPU_Usage_%"],
+                "ram": r["Mem_Usage_MB"],
+                "power_w": r["Power_W"],
+                "timestamp": r["Timestamp"],
+            })
+
+        return {
+            "total_anomalies": len(anomalies),
+            "models_used": list(loaded_models.keys()),
+            "anomalies": anomalies
+        }
+
+    except Exception as e:
+        traceback.print_exc()
+        return {"anomalies": [], "error": str(e)}
+
 
 @app.get("/anomaly-report")
 async def get_latest_anomaly_report():
