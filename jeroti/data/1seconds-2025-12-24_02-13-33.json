@@ -1,0 +1,4172 @@
+{
+  "processes": [
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 0,
+      "name": "kernel_task",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1,
+      "name": "launchd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 350,
+      "name": "logd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 352,
+      "name": "UserEventAgent",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 354,
+      "name": "fseventsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 355,
+      "name": "mediaremoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 358,
+      "name": "systemstats",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 362,
+      "name": "configd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 364,
+      "name": "powerd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 365,
+      "name": "IOMFB_bics_daemo",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 369,
+      "name": "remoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 373,
+      "name": "corespeechd_syst",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 375,
+      "name": "watchdogd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 379,
+      "name": "mds",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 381,
+      "name": "kernelmanagerd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 382,
+      "name": "diskarbitrationd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 386,
+      "name": "syslogd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 388,
+      "name": "thermalmonitord",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 389,
+      "name": "contextstored",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 390,
+      "name": "opendirectoryd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 392,
+      "name": "apsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 393,
+      "name": "launchservicesd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 394,
+      "name": "timed",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 395,
+      "name": "usbmuxd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 396,
+      "name": "securityd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 398,
+      "name": "locationd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 399,
+      "name": "nesessionmanager",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 401,
+      "name": "autofsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 402,
+      "name": "dasd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 403,
+      "name": "corerepaird",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 405,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 409,
+      "name": "logind",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 410,
+      "name": "revisiond",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 411,
+      "name": "KernelEventAgent",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 415,
+      "name": "bluetoothd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 416,
+      "name": "notifyd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 418,
+      "name": "corebrightnessd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 419,
+      "name": "AirPlayXPCHelper",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 420,
+      "name": "com.apple.cmio.r",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 423,
+      "name": "WindowServer",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 424,
+      "name": "tccd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 425,
+      "name": "cfprefsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 426,
+      "name": "loginwindow",
+      "cpu": 0.0,
+      "rss": 54935552,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 429,
+      "name": "runningboardd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 430,
+      "name": "coreservicesd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 431,
+      "name": "coreaudiod",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 432,
+      "name": "trustd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 434,
+      "name": "analyticsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 439,
+      "name": "lsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 443,
+      "name": "nsurlsessiond",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 446,
+      "name": "apfsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 448,
+      "name": "biometrickitd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 451,
+      "name": "socketfilterfw",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 452,
+      "name": "eligibilityd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 461,
+      "name": "airportd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 463,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 464,
+      "name": "mDNSResponder",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 466,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 468,
+      "name": "authd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 469,
+      "name": "symptomsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 476,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 483,
+      "name": "mDNSResponderHel",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 511,
+      "name": "syspolicyd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 519,
+      "name": "com.apple.audio.",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 522,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 523,
+      "name": "TouchBarServer",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 525,
+      "name": "audiomxd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 528,
+      "name": "WirelessRadioMan",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 538,
+      "name": "audioclocksyncd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 540,
+      "name": "appleeventsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 541,
+      "name": "com.apple.cmio.v",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 542,
+      "name": "appleh13camerad",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 548,
+      "name": "modelmanagerd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 554,
+      "name": "ss_conn_service2",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 555,
+      "name": "com.docker.vmnet",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 557,
+      "name": "cameracaptured",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 559,
+      "name": "UVCAssistant",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 564,
+      "name": "wifianalyticsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 568,
+      "name": "suhelperd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 573,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 577,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 579,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 586,
+      "name": "searchpartyd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 587,
+      "name": "com.apple.Driver",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 588,
+      "name": "com.apple.Driver",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 589,
+      "name": "gamepolicyd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 591,
+      "name": "com.apple.AppleU",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 597,
+      "name": "mds_stores",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 607,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 611,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 618,
+      "name": "coreauthd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 620,
+      "name": "distnoted",
+      "cpu": 0.0,
+      "rss": 4767744,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 621,
+      "name": "cfprefsd",
+      "cpu": 0.1,
+      "rss": 5292032,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 625,
+      "name": "UserEventAgent",
+      "cpu": 0.0,
+      "rss": 15040512,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 630,
+      "name": "WindowManager",
+      "cpu": 0.2,
+      "rss": 24969216,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 632,
+      "name": "universalaccessd",
+      "cpu": 0.0,
+      "rss": 13877248,
+      "threads": 7
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 633,
+      "name": "containermanagerd",
+      "cpu": 0.0,
+      "rss": 4030464,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 635,
+      "name": "pboard",
+      "cpu": 0.0,
+      "rss": 8798208,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 636,
+      "name": "BiomeAgent",
+      "cpu": 0.0,
+      "rss": 14450688,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 637,
+      "name": "lsd",
+      "cpu": 0.0,
+      "rss": 15695872,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 640,
+      "name": "Dock",
+      "cpu": 0.0,
+      "rss": 23658496,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 641,
+      "name": "ControlCenter",
+      "cpu": 0.1,
+      "rss": 59785216,
+      "threads": 7
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 642,
+      "name": "linkd",
+      "cpu": 0.0,
+      "rss": 13451264,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 643,
+      "name": "SystemUIServer",
+      "cpu": 0.0,
+      "rss": 19120128,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 644,
+      "name": "Finder",
+      "cpu": 0.0,
+      "rss": 59342848,
+      "threads": 6
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 648,
+      "name": "secd",
+      "cpu": 0.0,
+      "rss": 10895360,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 649,
+      "name": "AccessibilityUIServer",
+      "cpu": 0.0,
+      "rss": 23445504,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 650,
+      "name": "nsurlsessiond",
+      "cpu": 0.0,
+      "rss": 14548992,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 652,
+      "name": "rapportd",
+      "cpu": 0.0,
+      "rss": 15613952,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 653,
+      "name": "usernoted",
+      "cpu": 0.0,
+      "rss": 20955136,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 654,
+      "name": "ControlStrip",
+      "cpu": 0.0,
+      "rss": 18251776,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 659,
+      "name": "WallpaperAgent",
+      "cpu": 0.0,
+      "rss": 17022976,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 660,
+      "name": "filecoordination",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 662,
+      "name": "lockoutagent",
+      "cpu": 0.0,
+      "rss": 5242880,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 669,
+      "name": "automountd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 672,
+      "name": "suggestd",
+      "cpu": 0.0,
+      "rss": 28262400,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 674,
+      "name": "sharedfilelistd",
+      "cpu": 0.0,
+      "rss": 15777792,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 675,
+      "name": "fileproviderd",
+      "cpu": 0.2,
+      "rss": 17383424,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 677,
+      "name": "AMPDeviceDiscoveryAgent",
+      "cpu": 0.0,
+      "rss": 3866624,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 678,
+      "name": "trustd",
+      "cpu": 0.0,
+      "rss": 10633216,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 679,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 681,
+      "name": "ContextStoreAgent",
+      "cpu": 0.0,
+      "rss": 17154048,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 682,
+      "name": "fontd",
+      "cpu": 0.0,
+      "rss": 8863744,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 686,
+      "name": "ContinuityCaptureAgent",
+      "cpu": 0.0,
+      "rss": 8536064,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 688,
+      "name": "syncdefaultsd",
+      "cpu": 0.0,
+      "rss": 10878976,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 689,
+      "name": "identityservicesd",
+      "cpu": 0.0,
+      "rss": 16695296,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 690,
+      "name": "accountsd",
+      "cpu": 0.0,
+      "rss": 26804224,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 691,
+      "name": "fontworker",
+      "cpu": 0.0,
+      "rss": 6455296,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 692,
+      "name": "usernotificationsd",
+      "cpu": 0.0,
+      "rss": 10633216,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 693,
+      "name": "corespotlightd",
+      "cpu": 0.1,
+      "rss": 43171840,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 697,
+      "name": "ViewBridgeAuxiliary",
+      "cpu": 0.0,
+      "rss": 11780096,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 698,
+      "name": "FinderSyncExtension",
+      "cpu": 0.0,
+      "rss": 23248896,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 699,
+      "name": "MEGAShellExtFinder",
+      "cpu": 0.0,
+      "rss": 20742144,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 706,
+      "name": "WallpaperDynamicExtension",
+      "cpu": 0.0,
+      "rss": 7340032,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 707,
+      "name": "WallpaperAerialsExtension",
+      "cpu": 0.0,
+      "rss": 8208384,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 708,
+      "name": "CMFSyncAgent",
+      "cpu": 0.0,
+      "rss": 4472832,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 713,
+      "name": "coreauthd",
+      "cpu": 0.0,
+      "rss": 9568256,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 716,
+      "name": "ctkd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 719,
+      "name": "sharingd",
+      "cpu": 0.0,
+      "rss": 33996800,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 720,
+      "name": "chronod",
+      "cpu": 0.0,
+      "rss": 23232512,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 724,
+      "name": "oahd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 726,
+      "name": "StatusKitAgent",
+      "cpu": 0.0,
+      "rss": 9109504,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 728,
+      "name": "WiFiAgent",
+      "cpu": 0.5,
+      "rss": 26689536,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 731,
+      "name": "nearbyd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 738,
+      "name": "useractivityd",
+      "cpu": 0.0,
+      "rss": 5275648,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 739,
+      "name": "com.apple.dock.extra",
+      "cpu": 0.0,
+      "rss": 12713984,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 742,
+      "name": "ctkahp",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 743,
+      "name": "com.apple.CloudDocs.iCloudDriveFileProvider",
+      "cpu": 0.0,
+      "rss": 6930432,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 744,
+      "name": "NotificationCenter",
+      "cpu": 8.2,
+      "rss": 52576256,
+      "threads": 6
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 747,
+      "name": "familycircled",
+      "cpu": 0.0,
+      "rss": 9551872,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 750,
+      "name": "ctkahp",
+      "cpu": 0.0,
+      "rss": 5308416,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 752,
+      "name": "duetexpertd",
+      "cpu": 0.0,
+      "rss": 35127296,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 754,
+      "name": "imagent",
+      "cpu": 0.0,
+      "rss": 16760832,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 755,
+      "name": "UIKitSystem",
+      "cpu": 0.0,
+      "rss": 23658496,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 756,
+      "name": "Spotlight",
+      "cpu": 0.0,
+      "rss": 49446912,
+      "threads": 6
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 758,
+      "name": "imklaunchagent",
+      "cpu": 0.0,
+      "rss": 8536064,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 761,
+      "name": "CursorUIViewService",
+      "cpu": 0.2,
+      "rss": 29245440,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 763,
+      "name": "PAH_Extension",
+      "cpu": 0.0,
+      "rss": 13877248,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 772,
+      "name": "BatteriesAvocadoWidgetExtension",
+      "cpu": 0.0,
+      "rss": 21561344,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 775,
+      "name": "CalendarWidgetExtension",
+      "cpu": 0.0,
+      "rss": 15548416,
+      "threads": 6
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 780,
+      "name": "NeatDownloadManager",
+      "cpu": 0.0,
+      "rss": 30294016,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 782,
+      "name": "figma_agent",
+      "cpu": 0.1,
+      "rss": 25690112,
+      "threads": 27
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 784,
+      "name": "homed",
+      "cpu": 0.0,
+      "rss": 22544384,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 787,
+      "name": "Google Drive",
+      "cpu": 0.0,
+      "rss": 14794752,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 791,
+      "name": "ApidogAppAgent",
+      "cpu": 0.0,
+      "rss": 19283968,
+      "threads": 11
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 794,
+      "name": "MEGAsync",
+      "cpu": 0.6,
+      "rss": 30248960,
+      "threads": 31
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 804,
+      "name": "maild",
+      "cpu": 0.0,
+      "rss": 7716864,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 808,
+      "name": "corespeechd",
+      "cpu": 0.0,
+      "rss": 15335424,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 812,
+      "name": "CleanMyMac_5_Men",
+      "cpu": 0.1,
+      "rss": 65290240,
+      "threads": 8
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 815,
+      "name": "icdd",
+      "cpu": 0.0,
+      "rss": 4063232,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 816,
+      "name": "ChatGPTHelper",
+      "cpu": 0.0,
+      "rss": 40304640,
+      "threads": 9
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 823,
+      "name": "AirPlayUIAgent",
+      "cpu": 0.0,
+      "rss": 11173888,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 824,
+      "name": "CleanMyMac_5_Hea",
+      "cpu": 0.2,
+      "rss": 47448064,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 825,
+      "name": "WeatherMenu",
+      "cpu": 0.0,
+      "rss": 41271296,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 827,
+      "name": "diagnostics_agent",
+      "cpu": 0.0,
+      "rss": 6750208,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 828,
+      "name": "TextInputMenuAgent",
+      "cpu": 0.0,
+      "rss": 23560192,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 840,
+      "name": "HostInferencePro",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 842,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 844,
+      "name": "crashpad_handler",
+      "cpu": 0.0,
+      "rss": 6488064,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 845,
+      "name": "Google Drive",
+      "cpu": 0.1,
+      "rss": 73105408,
+      "threads": 143
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 851,
+      "name": "Google Drive Helper (GPU)",
+      "cpu": 0.0,
+      "rss": 49790976,
+      "threads": 11
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 852,
+      "name": "mediaremoteagent",
+      "cpu": 0.0,
+      "rss": 3702784,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 853,
+      "name": "avconferenced",
+      "cpu": 0.0,
+      "rss": 8142848,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 855,
+      "name": "Google Drive Helper",
+      "cpu": 0.0,
+      "rss": 32669696,
+      "threads": 7
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 857,
+      "name": "Google Drive Helper",
+      "cpu": 0.0,
+      "rss": 39534592,
+      "threads": 12
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 860,
+      "name": "Google Drive Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 66093056,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 863,
+      "name": "mscamerad-xpc",
+      "cpu": 0.0,
+      "rss": 3325952,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 864,
+      "name": "ptpcamerad",
+      "cpu": 0.0,
+      "rss": 3227648,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 865,
+      "name": "CVMServer",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 872,
+      "name": "IOUserBluetoothS",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 887,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 896,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 907,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 909,
+      "name": "fairplayd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 913,
+      "name": "mdbulkimport",
+      "cpu": 0.0,
+      "rss": 10190848,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 915,
+      "name": "Widget Extension",
+      "cpu": 0.0,
+      "rss": 25247744,
+      "threads": 9
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 916,
+      "name": "WorldClockWidget",
+      "cpu": 0.0,
+      "rss": 25280512,
+      "threads": 14
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 947,
+      "name": "mega-desktop-app-gfxworker",
+      "cpu": 0.0,
+      "rss": 1785856,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 949,
+      "name": "spotlightknowledged",
+      "cpu": 0.0,
+      "rss": 11583488,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 953,
+      "name": "managedappdistri",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 956,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 974,
+      "name": "commerce",
+      "cpu": 0.0,
+      "rss": 8617984,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 977,
+      "name": "peopled",
+      "cpu": 0.0,
+      "rss": 11763712,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 978,
+      "name": "siriinferenced",
+      "cpu": 0.0,
+      "rss": 15810560,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 984,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 997,
+      "name": "systemstats",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1004,
+      "name": "managedappdistributionagent",
+      "cpu": 0.0,
+      "rss": 9895936,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1027,
+      "name": "Google Drive Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 48349184,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1028,
+      "name": "Google Drive Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 38862848,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1032,
+      "name": "CalendarIntentsExtension",
+      "cpu": 0.0,
+      "rss": 7389184,
+      "threads": 6
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1033,
+      "name": "SafariLinkExtension",
+      "cpu": 0.0,
+      "rss": 7143424,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1034,
+      "name": "Google Drive Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 36470784,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1036,
+      "name": "MessagesActionExtension",
+      "cpu": 0.0,
+      "rss": 16695296,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1065,
+      "name": "CrashReporterSup",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1067,
+      "name": "SubmitDiagInfo",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1091,
+      "name": "spotlightknowledged",
+      "cpu": 0.0,
+      "rss": 3571712,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1121,
+      "name": "Google Chrome",
+      "cpu": 0.9,
+      "rss": 339460096,
+      "threads": 51
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1124,
+      "name": "EmojiFunctionRowIM_Extension",
+      "cpu": 0.0,
+      "rss": 17940480,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1150,
+      "name": "chrome_crashpad_handler",
+      "cpu": 0.0,
+      "rss": 5799936,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1153,
+      "name": "Google Chrome Helper",
+      "cpu": 19.5,
+      "rss": 129925120,
+      "threads": 24
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1154,
+      "name": "Google Chrome Helper",
+      "cpu": 0.8,
+      "rss": 128942080,
+      "threads": 17
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1155,
+      "name": "Google Chrome Helper",
+      "cpu": 0.0,
+      "rss": 56672256,
+      "threads": 12
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1160,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.2,
+      "rss": 141459456,
+      "threads": 19
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1161,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.1,
+      "rss": 109150208,
+      "threads": 19
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1196,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 56573952,
+      "threads": 17
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1213,
+      "name": "Google Chrome Helper",
+      "cpu": 0.9,
+      "rss": 60014592,
+      "threads": 14
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1214,
+      "name": "Google Chrome Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 67649536,
+      "threads": 17
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1221,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 114655232,
+      "threads": 18
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1224,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cpu": 0.0,
+      "rss": 17727488,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1226,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 70254592,
+      "threads": 17
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1235,
+      "name": "PasswordManagerBrowserExtensionHelper",
+      "cpu": 0.0,
+      "rss": 14532608,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1285,
+      "name": "ChatGPT",
+      "cpu": 9.3,
+      "rss": 77168640,
+      "threads": 12
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1289,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cpu": 0.0,
+      "rss": 18137088,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1291,
+      "name": "universalAccessAuthWarn",
+      "cpu": 0.0,
+      "rss": 20955136,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1311,
+      "name": "distnoted",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1352,
+      "name": "PasswordBreachAgent",
+      "cpu": 0.0,
+      "rss": 6422528,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1739,
+      "name": "Google Chrome Helper (Alerts)",
+      "cpu": 0.0,
+      "rss": 56115200,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 1914,
+      "name": "IMAutomaticHistoryDeletionAgent",
+      "cpu": 0.0,
+      "rss": 7651328,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 2035,
+      "name": "wifivelocityd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 2124,
+      "name": "PowerChime",
+      "cpu": 0.0,
+      "rss": 15728640,
+      "threads": 6
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 2192,
+      "name": "Electron",
+      "cpu": 3.4,
+      "rss": 195117056,
+      "threads": 49
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 2195,
+      "name": "chrome_crashpad_handler",
+      "cpu": 0.0,
+      "rss": 6422528,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 2196,
+      "name": "Code Helper (GPU)",
+      "cpu": 4.4,
+      "rss": 88768512,
+      "threads": 19
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 2197,
+      "name": "Code Helper",
+      "cpu": 0.0,
+      "rss": 48021504,
+      "threads": 15
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 2222,
+      "name": "Code Helper",
+      "cpu": 0.4,
+      "rss": 71548928,
+      "threads": 22
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 2256,
+      "name": "Code Helper",
+      "cpu": 0.5,
+      "rss": 70533120,
+      "threads": 28
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 5775,
+      "name": "Apidog",
+      "cpu": 0.1,
+      "rss": 61620224,
+      "threads": 47
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 5781,
+      "name": "Apidog",
+      "cpu": 0.0,
+      "rss": 19234816,
+      "threads": 14
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 5782,
+      "name": "Apidog Helper (GPU)",
+      "cpu": 0.1,
+      "rss": 38141952,
+      "threads": 11
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 5783,
+      "name": "Apidog Helper",
+      "cpu": 0.0,
+      "rss": 21397504,
+      "threads": 14
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 5785,
+      "name": "Apidog Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 21889024,
+      "threads": 22
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 5819,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cpu": 0.0,
+      "rss": 17924096,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 6681,
+      "name": "com.apple.appkit.xpc.openAndSavePanelService",
+      "cpu": 0.0,
+      "rss": 31260672,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 6685,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cpu": 0.0,
+      "rss": 17956864,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 6697,
+      "name": "mdwrite",
+      "cpu": 0.0,
+      "rss": 3211264,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9423,
+      "name": "Figma",
+      "cpu": 1.1,
+      "rss": 139378688,
+      "threads": 49
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9425,
+      "name": "chrome_crashpad_handler",
+      "cpu": 0.0,
+      "rss": 5931008,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9426,
+      "name": "Figma Helper (GPU)",
+      "cpu": 0.0,
+      "rss": 79872000,
+      "threads": 17
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9427,
+      "name": "Figma Helper",
+      "cpu": 0.0,
+      "rss": 53198848,
+      "threads": 15
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9432,
+      "name": "Figma Helper (Renderer)",
+      "cpu": 0.1,
+      "rss": 124551168,
+      "threads": 24
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9433,
+      "name": "Figma Helper",
+      "cpu": 0.0,
+      "rss": 34226176,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9447,
+      "name": "Figma Helper (Renderer)",
+      "cpu": 0.1,
+      "rss": 90472448,
+      "threads": 15
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9449,
+      "name": "Figma Helper (Renderer)",
+      "cpu": 0.1,
+      "rss": 126795776,
+      "threads": 22
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9558,
+      "name": "Figma Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 81494016,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 9559,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cpu": 0.0,
+      "rss": 22593536,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 12246,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 96436224,
+      "threads": 18
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 15719,
+      "name": "cloudd",
+      "cpu": 0.0,
+      "rss": 19038208,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 15721,
+      "name": "CloudTelemetryService",
+      "cpu": 0.0,
+      "rss": 8781824,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 15745,
+      "name": "nehelper",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 16066,
+      "name": "extensionkitservice",
+      "cpu": 0.0,
+      "rss": 10600448,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 16069,
+      "name": "backupd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 16552,
+      "name": "com.apple.hiservices-xpcservice",
+      "cpu": 0.0,
+      "rss": 3899392,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 16928,
+      "name": "AppleSpell",
+      "cpu": 0.0,
+      "rss": 39763968,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 18204,
+      "name": "audioaccessoryd",
+      "cpu": 0.0,
+      "rss": 21004288,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 18222,
+      "name": "biomed",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 18599,
+      "name": "CoreLocationAgent",
+      "cpu": 0.0,
+      "rss": 27951104,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 20266,
+      "name": "Figma Helper",
+      "cpu": 0.0,
+      "rss": 31539200,
+      "threads": 11
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 20857,
+      "name": "mbuseragent",
+      "cpu": 0.0,
+      "rss": 3555328,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 20946,
+      "name": "proactived",
+      "cpu": 0.0,
+      "rss": 12746752,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 21037,
+      "name": "Figma Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 69451776,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 21038,
+      "name": "Figma Helper (Renderer)",
+      "cpu": 0.5,
+      "rss": 160399360,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 21271,
+      "name": "contentlinkingd",
+      "cpu": 0.0,
+      "rss": 7258112,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 21524,
+      "name": "assistantd",
+      "cpu": 0.0,
+      "rss": 29196288,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 21632,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.1,
+      "rss": 106774528,
+      "threads": 19
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 21912,
+      "name": "PerfPowerService",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 22243,
+      "name": "Notes",
+      "cpu": 0.0,
+      "rss": 43876352,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 22608,
+      "name": "WhatsApp",
+      "cpu": 0.9,
+      "rss": 178110464,
+      "threads": 30
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 22610,
+      "name": "WAAppKitBridgeService",
+      "cpu": 0.0,
+      "rss": 11862016,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 22612,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cpu": 0.0,
+      "rss": 23674880,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 22645,
+      "name": "ServiceExtension",
+      "cpu": 0.0,
+      "rss": 33767424,
+      "threads": 7
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 22651,
+      "name": "WeatherWidget",
+      "cpu": 0.0,
+      "rss": 36585472,
+      "threads": 8
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 22744,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 104235008,
+      "threads": 18
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 23215,
+      "name": "Figma Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 83984384,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 23624,
+      "name": "NowPlayingTouchUI",
+      "cpu": 0.0,
+      "rss": 38797312,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 23710,
+      "name": "IntelligencePlatformComputeService",
+      "cpu": 0.0,
+      "rss": 11010048,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 23895,
+      "name": "BTLEServer",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24110,
+      "name": "callservicesd",
+      "cpu": 0.0,
+      "rss": 20299776,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24500,
+      "name": "com.apple.appkit.xpc.openAndSavePanelService",
+      "cpu": 0.0,
+      "rss": 51003392,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24501,
+      "name": "QuickLookUIService",
+      "cpu": 0.0,
+      "rss": 15187968,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24510,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cpu": 0.0,
+      "rss": 24313856,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24677,
+      "name": "FinderSyncExtension",
+      "cpu": 0.0,
+      "rss": 27361280,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24678,
+      "name": "MEGAShellExtFinder",
+      "cpu": 0.0,
+      "rss": 25018368,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24814,
+      "name": "Code Helper (Renderer)",
+      "cpu": 0.1,
+      "rss": 140771328,
+      "threads": 19
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24842,
+      "name": "com.apple.appkit.xpc.openAndSavePanelService",
+      "cpu": 0.0,
+      "rss": 50429952,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24843,
+      "name": "QuickLookUIService",
+      "cpu": 0.0,
+      "rss": 15122432,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24856,
+      "name": "Code Helper",
+      "cpu": 0.0,
+      "rss": 59670528,
+      "threads": 25
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24857,
+      "name": "zsh",
+      "cpu": 0.0,
+      "rss": 1622016,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 24884,
+      "name": "zsh",
+      "cpu": 0.0,
+      "rss": 1490944,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 25398,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 86884352,
+      "threads": 26
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 25401,
+      "name": "pet",
+      "cpu": 0.0,
+      "rss": 1638400,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 25412,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 56066048,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 25416,
+      "name": "zsh",
+      "cpu": 0.0,
+      "rss": 1490944,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 25425,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 59506688,
+      "threads": 14
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 25546,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 70926336,
+      "threads": 22
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 26049,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.2,
+      "rss": 401457152,
+      "threads": 21
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 26851,
+      "name": "com.apple.AuthenticationServices.Helper",
+      "cpu": 0.0,
+      "rss": 24002560,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27309,
+      "name": "netbiosd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27380,
+      "name": "DFSFileProviderExtension",
+      "cpu": 0.0,
+      "rss": 15351808,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27383,
+      "name": "DFSFileProviderExtension",
+      "cpu": 0.0,
+      "rss": 15351808,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27658,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 109346816,
+      "threads": 18
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27742,
+      "name": "networkserviceproxy",
+      "cpu": 0.0,
+      "rss": 12648448,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27767,
+      "name": "audioanalyticsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27814,
+      "name": "com.apple.CodeSi",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27935,
+      "name": "intelligencecontextd",
+      "cpu": 0.0,
+      "rss": 12746752,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 27956,
+      "name": "CharacterPalette",
+      "cpu": 0.1,
+      "rss": 52101120,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 28124,
+      "name": "ThemeWidgetControlViewService",
+      "cpu": 0.0,
+      "rss": 16941056,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 29009,
+      "name": "uv",
+      "cpu": 0.0,
+      "rss": 18268160,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 29011,
+      "name": "python3.12",
+      "cpu": 0.0,
+      "rss": 4358144,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 29343,
+      "name": "python3.11",
+      "cpu": 0.0,
+      "rss": 12713984,
+      "threads": 12
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 29348,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 52789248,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 29398,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 11.9,
+      "rss": 528891904,
+      "threads": 30
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 29558,
+      "name": "knowledge-agent",
+      "cpu": 0.0,
+      "rss": 28459008,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 29748,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 21.3,
+      "rss": 480428032,
+      "threads": 19
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30027,
+      "name": "trustd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30036,
+      "name": "trustd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30242,
+      "name": "contactsd",
+      "cpu": 0.0,
+      "rss": 8880128,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30255,
+      "name": "neagent",
+      "cpu": 0.0,
+      "rss": 8749056,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30266,
+      "name": "deleted",
+      "cpu": 0.0,
+      "rss": 19578880,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30281,
+      "name": "backupd-helper",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30523,
+      "name": "python3.11",
+      "cpu": 0.0,
+      "rss": 13991936,
+      "threads": 29
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30608,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 60047360,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30974,
+      "name": "com.apple.geod",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 30975,
+      "name": "com.apple.geod",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32360,
+      "name": "gamecontrollerd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32361,
+      "name": "gamecontrolleragentd",
+      "cpu": 0.0,
+      "rss": 8126464,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32362,
+      "name": "businessservicesd",
+      "cpu": 0.0,
+      "rss": 6275072,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32364,
+      "name": "MessagesBlastDoorService",
+      "cpu": 0.0,
+      "rss": 606208,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32365,
+      "name": "assessmentagent",
+      "cpu": 0.0,
+      "rss": 4472832,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32366,
+      "name": "feedbackd",
+      "cpu": 0.0,
+      "rss": 5144576,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32367,
+      "name": "ospredictiond",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32368,
+      "name": "CommCenter",
+      "cpu": 0.0,
+      "rss": 12779520,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32379,
+      "name": "Keychain Circle Notification",
+      "cpu": 0.0,
+      "rss": 14483456,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32380,
+      "name": "powerexperienced",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32391,
+      "name": "online-auth-agen",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32406,
+      "name": "replayd",
+      "cpu": 0.0,
+      "rss": 12795904,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32407,
+      "name": "aned",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32408,
+      "name": "ANECompilerServi",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32413,
+      "name": "PerfPowerTelemet",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32421,
+      "name": "mobileassetd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32422,
+      "name": "softwareupdated",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32424,
+      "name": "modelcatalogd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32425,
+      "name": "generativeexperiencesd",
+      "cpu": 0.0,
+      "rss": 12238848,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32426,
+      "name": "softwareupdated",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32427,
+      "name": "com.apple.Mobile",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32438,
+      "name": "FeatureAccessAgent",
+      "cpu": 0.0,
+      "rss": 6324224,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32439,
+      "name": "followupd",
+      "cpu": 0.0,
+      "rss": 3227648,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32445,
+      "name": "ModelCatalogAgent",
+      "cpu": 0.0,
+      "rss": 8011776,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32466,
+      "name": "sysmond",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32469,
+      "name": "pbs",
+      "cpu": 0.0,
+      "rss": 4063232,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32472,
+      "name": "swcd",
+      "cpu": 0.0,
+      "rss": 13991936,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32474,
+      "name": "talagentd",
+      "cpu": 0.0,
+      "rss": 17170432,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32505,
+      "name": "deleted_helper",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32506,
+      "name": "triald_system",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32507,
+      "name": "osanalyticshelpe",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32508,
+      "name": "usermanagerd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32509,
+      "name": "pkd",
+      "cpu": 0.0,
+      "rss": 14680064,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32510,
+      "name": "bird",
+      "cpu": 0.0,
+      "rss": 17235968,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32511,
+      "name": "triald",
+      "cpu": 0.0,
+      "rss": 10928128,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32512,
+      "name": "AssetCache",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32513,
+      "name": "AssetCacheTether",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32514,
+      "name": "TrialArchivingService",
+      "cpu": 0.0,
+      "rss": 8192000,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32515,
+      "name": "com.apple.geod",
+      "cpu": 0.0,
+      "rss": 14221312,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32516,
+      "name": "secinitd",
+      "cpu": 0.0,
+      "rss": 7766016,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32517,
+      "name": "com.apple.geod",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32518,
+      "name": "secinitd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32519,
+      "name": "cfprefsd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32520,
+      "name": "tccd",
+      "cpu": 0.0,
+      "rss": 10649600,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32521,
+      "name": "sandboxd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32522,
+      "name": "containermanager",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32523,
+      "name": "photolibraryd",
+      "cpu": 0.0,
+      "rss": 7045120,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32524,
+      "name": "ContainerMetadataExtractor",
+      "cpu": 0.0,
+      "rss": 10420224,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32525,
+      "name": "geodMachServiceBridge",
+      "cpu": 0.0,
+      "rss": 2834432,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32526,
+      "name": "installd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32527,
+      "name": "system_installd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32529,
+      "name": "com.apple.quicklook.ThumbnailsAgent",
+      "cpu": 0.0,
+      "rss": 12959744,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32531,
+      "name": "storagekitd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32532,
+      "name": "cloudd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32534,
+      "name": "fskitd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32535,
+      "name": "containermanager",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32536,
+      "name": "appstoreagent",
+      "cpu": 0.0,
+      "rss": 26083328,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32539,
+      "name": "amsaccountsd",
+      "cpu": 0.0,
+      "rss": 18808832,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32540,
+      "name": "amsengagementd",
+      "cpu": 0.0,
+      "rss": 13385728,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32541,
+      "name": "installcoordinat",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32542,
+      "name": "com.apple.AppSto",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32543,
+      "name": "akd",
+      "cpu": 0.0,
+      "rss": 12238848,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32544,
+      "name": "adid",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32546,
+      "name": "promotedcontentd",
+      "cpu": 0.0,
+      "rss": 10731520,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32547,
+      "name": "fairplaydeviceid",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32548,
+      "name": "mobileactivation",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32549,
+      "name": "TelemetryDiskChecker",
+      "cpu": 0.0,
+      "rss": 2932736,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32564,
+      "name": "AMPArtworkAgent",
+      "cpu": 0.0,
+      "rss": 6324224,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32565,
+      "name": "itunescloudd",
+      "cpu": 0.0,
+      "rss": 19841024,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32568,
+      "name": "CoreServicesUIAgent",
+      "cpu": 0.0,
+      "rss": 36093952,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 32573,
+      "name": "securityd_system",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33039,
+      "name": "wifip2pd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33229,
+      "name": "searchpartyuseragent",
+      "cpu": 0.0,
+      "rss": 14974976,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33230,
+      "name": "findmylocateagent",
+      "cpu": 0.0,
+      "rss": 9633792,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33231,
+      "name": "findmydeviced",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33232,
+      "name": "findmybeaconingd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33237,
+      "name": "findmydevice-user-agent",
+      "cpu": 0.0,
+      "rss": 6340608,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33239,
+      "name": "systemstatusd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33280,
+      "name": "uv",
+      "cpu": 0.0,
+      "rss": 18219008,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33281,
+      "name": "python3.12",
+      "cpu": 0.0,
+      "rss": 11567104,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33378,
+      "name": "VTDecoderXPCService",
+      "cpu": 0.0,
+      "rss": 11354112,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33942,
+      "name": "mlhostd",
+      "cpu": 0.0,
+      "rss": 11796480,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33964,
+      "name": "smd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33987,
+      "name": "uv",
+      "cpu": 0.0,
+      "rss": 18219008,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 33988,
+      "name": "python3.12",
+      "cpu": 0.0,
+      "rss": 11567104,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34043,
+      "name": "coreduetd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34059,
+      "name": "iconservicesagent",
+      "cpu": 0.0,
+      "rss": 11894784,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34060,
+      "name": "iconservicesd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34061,
+      "name": "extensionkitservice",
+      "cpu": 0.0,
+      "rss": 9617408,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34062,
+      "name": "Code Helper (Renderer)",
+      "cpu": 13.8,
+      "rss": 422051840,
+      "threads": 24
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34065,
+      "name": "ScopedBookmarkAgent",
+      "cpu": 0.0,
+      "rss": 9797632,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34066,
+      "name": "PlugInLibraryService",
+      "cpu": 0.0,
+      "rss": 1900544,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34067,
+      "name": "PlugInLibraryService",
+      "cpu": 0.0,
+      "rss": 1900544,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34088,
+      "name": "amfid",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34089,
+      "name": "inputanalyticsd",
+      "cpu": 0.0,
+      "rss": 5177344,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34092,
+      "name": "Code Helper",
+      "cpu": 0.0,
+      "rss": 67223552,
+      "threads": 25
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34093,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.9,
+      "rss": 244563968,
+      "threads": 25
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34094,
+      "name": "logd_helper",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34097,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.3,
+      "rss": 79659008,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34104,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 67321856,
+      "threads": 14
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34106,
+      "name": "naturallanguaged",
+      "cpu": 0.0,
+      "rss": 4079616,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34124,
+      "name": "zsh",
+      "cpu": 0.0,
+      "rss": 1835008,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34587,
+      "name": "AppPredictionIntentsHelperService",
+      "cpu": 0.0,
+      "rss": 28803072,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34590,
+      "name": "siriactionsd",
+      "cpu": 0.0,
+      "rss": 26017792,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34592,
+      "name": "mobiletimerd",
+      "cpu": 0.0,
+      "rss": 7847936,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34593,
+      "name": "AssetCacheLocatorService",
+      "cpu": 0.0,
+      "rss": 4440064,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34594,
+      "name": "ShortcutsViewService",
+      "cpu": 0.0,
+      "rss": 21250048,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34595,
+      "name": "liveactivitiesd",
+      "cpu": 0.0,
+      "rss": 9977856,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34596,
+      "name": "replicatord",
+      "cpu": 0.0,
+      "rss": 15597568,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34605,
+      "name": "axassetsd",
+      "cpu": 0.0,
+      "rss": 6111232,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34606,
+      "name": "calaccessd",
+      "cpu": 0.0,
+      "rss": 15892480,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34607,
+      "name": "communicationtrustd",
+      "cpu": 0.0,
+      "rss": 9158656,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34608,
+      "name": "remindd",
+      "cpu": 0.0,
+      "rss": 15564800,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34609,
+      "name": "donotdisturbd",
+      "cpu": 0.0,
+      "rss": 19136512,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34614,
+      "name": "countryd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34625,
+      "name": "routined",
+      "cpu": 0.0,
+      "rss": 25411584,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34630,
+      "name": "com.apple.CharacterPicker.FileService",
+      "cpu": 0.0,
+      "rss": 2031616,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34640,
+      "name": "PowerUIAgent",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34644,
+      "name": "IMTransferAgent",
+      "cpu": 0.0,
+      "rss": 425984,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34645,
+      "name": "AppSSOAgent",
+      "cpu": 0.0,
+      "rss": 40566784,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34646,
+      "name": "GSSCred",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34647,
+      "name": "AppSSODaemon",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34648,
+      "name": "captiveagent",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34649,
+      "name": "IMDPersistenceAgent",
+      "cpu": 0.0,
+      "rss": 5980160,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34654,
+      "name": "Google Chrome Helper",
+      "cpu": 0.0,
+      "rss": 68288512,
+      "threads": 12
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34657,
+      "name": "com.apple.hiserv",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34682,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 55148544,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34683,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 55574528,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34684,
+      "name": "pet",
+      "cpu": 0.0,
+      "rss": 4292608,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34689,
+      "name": "zsh",
+      "cpu": 0.0,
+      "rss": 1703936,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34694,
+      "name": "Code Helper (Plugin)",
+      "cpu": 1.2,
+      "rss": 515964928,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34775,
+      "name": "Code Helper (Plugin)",
+      "cpu": 0.0,
+      "rss": 55918592,
+      "threads": 10
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34776,
+      "name": "MTLCompilerService",
+      "cpu": 0.0,
+      "rss": 15810560,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 34848,
+      "name": "zsh",
+      "cpu": 0.0,
+      "rss": 1851392,
+      "threads": 1
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35017,
+      "name": "Code Helper",
+      "cpu": 0.0,
+      "rss": 38764544,
+      "threads": 11
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35018,
+      "name": "VTEncoderXPCService",
+      "cpu": 0.0,
+      "rss": 9797632,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35019,
+      "name": "AudioComponentRegistrar",
+      "cpu": 0.0,
+      "rss": 3407872,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35022,
+      "name": "ecosystemanalyti",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35026,
+      "name": "ecosystemd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35027,
+      "name": "com.apple.audio.SandboxHelper",
+      "cpu": 0.0,
+      "rss": 6537216,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35113,
+      "name": "spindump",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35117,
+      "name": "coresymbolicatio",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35535,
+      "name": "XprotectService",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35536,
+      "name": "ReportCrash",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35988,
+      "name": "uv",
+      "cpu": 0.0,
+      "rss": 18350080,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 35989,
+      "name": "python3.12",
+      "cpu": 0.0,
+      "rss": 56344576,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36025,
+      "name": "python3.11",
+      "cpu": 0.0,
+      "rss": 17170432,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36038,
+      "name": "UsageTrackingAgent",
+      "cpu": 0.0,
+      "rss": 11698176,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36040,
+      "name": "ManagedSettingsAgent",
+      "cpu": 0.0,
+      "rss": 4145152,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36042,
+      "name": "systemsoundserve",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36043,
+      "name": "AudioComponentRe",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36044,
+      "name": "com.apple.audio.",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36045,
+      "name": "rtcreportingd",
+      "cpu": null,
+      "rss": 0,
+      "threads": null
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36048,
+      "name": "CategoriesService",
+      "cpu": 0.0,
+      "rss": 6946816,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36050,
+      "name": "AMPLibraryAgent",
+      "cpu": 0.0,
+      "rss": 41680896,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36052,
+      "name": "ContextService",
+      "cpu": 0.0,
+      "rss": 10502144,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36080,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 16400384,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36139,
+      "name": "TextInputSwitcher",
+      "cpu": 0.5,
+      "rss": 27820032,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36225,
+      "name": "uv",
+      "cpu": 0.0,
+      "rss": 20316160,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36226,
+      "name": "python3.12",
+      "cpu": 0.0,
+      "rss": 156696576,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36241,
+      "name": "mdworker_shared",
+      "cpu": 0.1,
+      "rss": 18350080,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36242,
+      "name": "mdworker_shared",
+      "cpu": 0.1,
+      "rss": 25788416,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36284,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.1,
+      "rss": 123240448,
+      "threads": 17
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36289,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.2,
+      "rss": 135102464,
+      "threads": 17
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36290,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.1,
+      "rss": 111640576,
+      "threads": 16
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36291,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 99893248,
+      "threads": 12
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36375,
+      "name": "uv",
+      "cpu": 0.0,
+      "rss": 20054016,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36376,
+      "name": "python3.12",
+      "cpu": 0.1,
+      "rss": 157483008,
+      "threads": 2
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36402,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 14745600,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36405,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 25460736,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36406,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 22102016,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36407,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 14811136,
+      "threads": 3
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36409,
+      "name": "Google Chrome Helper (Renderer)",
+      "cpu": 0.0,
+      "rss": 111165440,
+      "threads": 14
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36410,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 21708800,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36411,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 14827520,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36412,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 14827520,
+      "threads": 4
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36415,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 25772032,
+      "threads": 5
+    },
+    {
+      "timestamp": "2025-12-24 02:13:33",
+      "pid": 36416,
+      "name": "mdworker_shared",
+      "cpu": 0.0,
+      "rss": 13484032,
+      "threads": 4
+    }
+  ]
+}

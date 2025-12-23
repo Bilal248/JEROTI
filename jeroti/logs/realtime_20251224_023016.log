@@ -1,0 +1,6 @@
+[ANOMALY] 7 anomalous processes. Top: 845:Google Drive cpu=0.0, 1121:Google Chrome cpu=0.0, 2192:Electron cpu=0.0, 29398:Google Chrome Helper (Renderer) cpu=0.0, 34062:Code Helper (Renderer) cpu=0.0
+[ANOMALY] 13 anomalous processes. Top: 34093:Code Helper (Plugin) cpu=18.2, 29748:Google Chrome Helper (Renderer) cpu=16.5, 1153:Google Chrome Helper cpu=12.6, 1285:ChatGPT cpu=8.3, 744:NotificationCenter cpu=7.7
+[ANOMALY] 15 anomalous processes. Top: 29748:Google Chrome Helper (Renderer) cpu=16.6, 1153:Google Chrome Helper cpu=13.1, 34062:Code Helper (Renderer) cpu=8.1, 1285:ChatGPT cpu=8.0, 744:NotificationCenter cpu=7.1
+[ANOMALY] 14 anomalous processes. Top: 34062:Code Helper (Renderer) cpu=33.0, 29748:Google Chrome Helper (Renderer) cpu=15.9, 1153:Google Chrome Helper cpu=12.7, 2192:Electron cpu=9.1, 1285:ChatGPT cpu=7.6
+[ANOMALY] 13 anomalous processes. Top: 34062:Code Helper (Renderer) cpu=18.2, 29748:Google Chrome Helper (Renderer) cpu=16.4, 1153:Google Chrome Helper cpu=12.6, 29398:Google Chrome Helper (Renderer) cpu=8.3, 1285:ChatGPT cpu=8.2
+[ANOMALY] 13 anomalous processes. Top: 34062:Code Helper (Renderer) cpu=26.0, 29748:Google Chrome Helper (Renderer) cpu=16.6, 1153:Google Chrome Helper cpu=12.9, 1285:ChatGPT cpu=8.0, 744:NotificationCenter cpu=7.0
